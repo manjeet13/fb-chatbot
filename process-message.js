@@ -132,28 +132,3 @@ function getResponseText(event, type) {
 }
 
 module.exports = processMsgs;
-
-/* module.exports = (event, type) => {
-    const userId = event.sender.id;
-    const message = event.message.text;
-
-    const request = {
-    session: sessionPath,
-    queryInput: {
-        text: {
-        text: message,
-        languageCode: languageCode,
-        },
-    },
-    };
-
-    sessionClient
-    .detectIntent(request)
-    .then(responses => {
-        const result = responses[0].queryResult;
-        return sendTextMessage(userId, 'Hahahaha');
-    })
-    .catch(err => {
-        console.error('ERROR:', err);
-    });
-} */

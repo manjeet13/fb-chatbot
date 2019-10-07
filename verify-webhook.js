@@ -13,4 +13,3 @@ const verifyWebhook = (req, res) => {
   };
 
   module.exports = verifyWebhook;
-  //EAAFAXZAKVZAMcBAEof1MlNPZCN3F96grFWyIYI9iQs2gc7LIzLXQ7w16d5ZBPmNyunLYpgc3NSCyvJOQCXxiNWlA2OK6b8IlNcYQowhdKSRUJhMnXHXNbTTdxkcagAVLnu3JA6xHggi5WY2GBqm8XGMzQANo7goiG9AobQRof7zwpcJeyEEYg2YDVlRyVSUZD
